@@ -1,8 +1,17 @@
 {
-  "name": "myapp",
-  "description": "a really cool app",
+  "name": "mybot",
   "version": "1.0.0",
-  "engines": {
-    "node": "12.x"
+  "description": "Make It Say Dumb Thing",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ffmpeg": "0.0.4",
+    "opusscript": "0.0.7"
   }
 }
